@@ -1,5 +1,0 @@
-.nav-bar-container {
-  display: flex;
-  justify-content: space-evenly;
-  border-bottom: 1px solid var(--grey-color);
-}
