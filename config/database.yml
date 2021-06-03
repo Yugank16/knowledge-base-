@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: Knowledge_base_backend_production
-  username: Knowledge_base_backend
-  password: <%= ENV['KNOWLEDGE_BASE_BACKEND_DATABASE_PASSWORD'] %>
+  database: <%= ENV['DATABASE_URL'] %>
